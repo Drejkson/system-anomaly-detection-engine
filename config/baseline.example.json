@@ -1,0 +1,24 @@
+{
+  "allowed_listen_ports": [22, 53, 631],
+  "known_suid": [
+    "/usr/bin/sudo",
+    "/usr/bin/passwd",
+    "/usr/bin/su",
+    "/usr/bin/mount",
+    "/usr/bin/umount",
+    "/usr/bin/chsh",
+    "/usr/bin/chfn",
+    "/usr/bin/newgrp",
+    "/usr/bin/gpasswd"
+  ],
+  "known_modules": [],
+  "known_cron": [],
+  "allowed_uid0_users": ["root"],
+  "expected_sysctl": {
+    "sys_aslr": "2",
+    "sys_ptrace_scope": "1",
+    "sys_dmesg_restrict": "1",
+    "sys_kptr_restrict": "1"
+  },
+  "manual_mttd_seconds": 900
+}

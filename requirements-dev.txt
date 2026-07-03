@@ -1,0 +1,3 @@
+# Silnik działa wyłącznie na bibliotece standardowej Pythona (3.8+).
+# Poniższe zależności potrzebne są tylko do uruchamiania testów.
+pytest>=7.0

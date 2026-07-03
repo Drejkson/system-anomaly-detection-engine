@@ -1,0 +1,9 @@
+# Normalizuj wszystkie pliki tekstowe do końców linii LF w repozytorium.
+# Kluczowe dla projektu Bash/Linux commitowanego z Windows — bez tego
+# skrypty .sh dostałyby CRLF i psuły się na Linuksie (błędny shebang itd.).
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
